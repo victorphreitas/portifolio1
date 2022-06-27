@@ -20,8 +20,8 @@ const visitProject = event => {
         window.open("https://victorphreitas.github.io/SexyCanvas/")
     } else if (btnAttribute === 'infinite'){
         window.open("https://victorphreitas.github.io/infiniteScroller/")
-    } else if (btnAttribute === 'github') {
-        window.open("https://victorphreitas.github.io/githubFind/")  
+    } else if (btnAttribute === 'navigation') {
+        window.open("https://victorphreitas.github.io/navigationProject/")  
     } else if (btnAttribute === 'quote') {
         window.open("https://victorphreitas.github.io/quoteGenerator/")
     }
