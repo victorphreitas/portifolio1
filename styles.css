@@ -48,6 +48,46 @@
   transition: 200ms;
 }
 
+/* fixing responsiveness */
+@media screen and (max-width: 1030px){
+  .nav-buttons {
+    display: none;
+  }
+
+  #main-header {
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  .main-header-box {
+    padding: 0;
+  }
+
+  .card-container-box {
+    margin-top: 2rem;
+  }
+
+  .soft-skills-img {
+    width: 100%;
+  }
+
+  .text-box-container {
+    margin-top: 2rem;
+  }
+
+  .team-section {
+    padding: 0 0 2rem 0;
+  }
+
+  .some-projects-parentdiv {
+    margin-bottom: 2rem;
+  }
+
+  #contact_form {
+    padding-top: 2rem;
+  }
+}
+
 
 
 
