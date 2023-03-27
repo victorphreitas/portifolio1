@@ -23,7 +23,7 @@ const visitProject = event => {
     } else if (btnAttribute === 'navigation') {
         window.open("https://victorphreitas.github.io/navigationProject/")  
     } else if (btnAttribute === 'quote') {
-        window.open("https://victorphreitas.github.io/quoteGenerator/")
+        window.open("https://www.catiadespachante.com.br/")
     }
 }
 

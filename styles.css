@@ -38,14 +38,32 @@
   content: "\f500";
 }
 /* Project Images */
+.image-container {
+  margin: 0 auto 0 auto;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
 .image-project {
   border-radius: 100%;
   height: 115px;
 }
 
 .image-project:hover {
-  padding: 1px;
-  transition: 200ms;
+  transform: scale(1.2);
+  transition: transform 400ms ease-out;
+}
+
+/* Button project */
+.btn-project:hover {
+  transform: translate(-1px,-1px);
+  transition: transform 400ms ease-out;
+}
+
+.btn-project:active {
+  transform: translate(1px,1px);
+  transition: transform 400ms ease-out;
 }
 
 /* fixing responsiveness */
