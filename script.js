@@ -53,7 +53,7 @@ window.onload = function() {
                     document.querySelector("textarea").value = ''
                     document.querySelector("input[name='user_name']").value = ''
                     document.querySelector("input[type='email']").value = ''
-                },100)
+                },500)
             }, function(error) {
                 //create a div in the page to show this message in a better way 
                 Swal.fire({
@@ -67,9 +67,6 @@ window.onload = function() {
         });
   }
 
-  const inputUserName = document.querySelector('.user_name')
-
-  console.log(inputUserName.value)
 
 
 
